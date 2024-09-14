@@ -10,3 +10,6 @@ termcolor==2.3.0
 urllib3==2.2.2
 websocket-client==1.8.0
 yaspin==3.0.2
+
+pytest~=8.3.3
+pytest-xdist==3.6.1

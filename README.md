@@ -109,3 +109,10 @@ python benchmark.py -c1 "python main.py my-container exec cat /etc/resolv.conf" 
 |----------------------|-------------|------------|
 | date                 | 76.102 ms   | 268.102 ms |
 | cat /etc/resolv.conf | 78.425 ms   | 255.685 ms |
+
+### Tests
+Tests are provided via `pytest`, running in parallel using the `pytest-xdist` module.
+
+```bash
+./tests/run_tests.sh
+```
